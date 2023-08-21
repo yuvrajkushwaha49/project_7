@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.text{
+    text-align: center;
+}
+.text hr{
+    margin: 0 200px;
+}
+.left{
+    width: 33%;
+    
+    text-align: center;
+    margin: 20px;
+    padding: 63px 29px;
+    border-radius: 10px;
+}
+#green{
+    border: 2px solid green;
+    box-shadow: 0px 20px 20px 0px green;
+}
+#red{
+    border: 2px solid red;
+    box-shadow: 0px 20px 20px 0px red;
+}
+#blue{
+    border: 2px solid blue;
+    box-shadow: 0px 20px 20px 0px blue;
+}
+.left input{
+    padding: 8px;
+    margin: 13px;
+    border: none;
+    border-radius: 20px;
+}
+.main{
+    margin: 80px;
+    display: flex;
+
+}
+#submit{
+    background-color: green;
+    color: white;
+}
+#sub{
+    color: green;
+}
+#write{
+    color: white;
+    background-color: red;
+}
+#sales{
+    color: white;
+    background-color: blue;
+}
